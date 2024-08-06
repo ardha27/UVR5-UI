@@ -527,6 +527,7 @@ with gr.Blocks(theme="NoCrypt/miku@1.2.2", title="🎵 UVR5 UI 🎵") as app:
                 mdx23c_output_format = gr.Dropdown(
                     label = "Select the Output Format",
                     choices = output_format,
+                    value = "wav",
                     interactive = True
                 )
             with gr.Row():
